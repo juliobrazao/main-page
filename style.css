@@ -1,0 +1,32 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat";
+  background: linear-gradient(#bebebe, #ffffff);
+}
+#content {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+#content h1 {
+  font-weight: 200;
+}
+#content p {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#content nav a {
+  color: blue;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 0 5px;
+}
+#content nav a:hover {
+  color: purple;
+}
